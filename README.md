@@ -36,7 +36,7 @@ Create a notification from your Vue component using the global function. Notific
    this.flash_notification_add( 'primary', 'Look at this!');
    this.flash_notification_add( 'secondary', 'Meh.');
    this.flash_notification_add( 'success', 'Good job!');
-   this.flash_notification_add( 'warning.', 'Be careful!');
+   this.flash_notification_add( 'warning', 'Be careful!');
    this.flash_notification_add( 'danger', 'Oh noes!');
 ```
 
