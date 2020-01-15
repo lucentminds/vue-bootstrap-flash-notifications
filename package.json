@@ -1,0 +1,23 @@
+{
+  "name": "vue-bootstrap-flash-notifications",
+  "version": "1.0.0",
+  "description": "Vue plugin to make it easy to add bootstrap styled alerts into flash notifications for your project.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucentminds/vue-bootstrap-flash-notifications.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Scott Johnson",
+    "url": "https://www.lucentminds.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucentminds/vue-bootstrap-flash-notifications/issues"
+  },
+  "homepage": "https://github.com/lucentminds/vue-bootstrap-flash-notifications#readme"
+}
