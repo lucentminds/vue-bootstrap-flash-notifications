@@ -20,10 +20,10 @@ Import and use the plugin. Make sure the bootstrap css is included somewhere in 
 import 'bootstrap/dist/css/bootstrap.css';
 
 // Import plugin.
-import VueBootstrapFlashNotification from 'vue-bootstrap-flash-notification';
+import VueBootstrapFlashNotifications from 'vue-bootstrap-flash-notifications';
 
 // Use plugin.
-Vue.use(VueBootstrapFlashNotification);
+Vue.use(VueBootstrapFlashNotifications);
 ```
 
 Add the tag wherever you want to see the flash notifications.
@@ -48,7 +48,7 @@ You do not have to use the full `vue-bootstrap-flash-notifications` html tag nam
 ...
 
 // Use plugin.
-Vue.use(VueBootstrapFlashNotification,{
+Vue.use(VueBootstrapFlashNotifications,{
    tag_name: 'my-notifications'
 });
 ```
