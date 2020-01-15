@@ -15,13 +15,7 @@ class PluginStore {
 
 const pluginStoreInstance = new PluginStore({
    // Determines temporary notifications from the web ui.
-   flash_notifications: {
-      'abc': {
-         id: 'abc',
-         type: 'success',
-         message: 'foo and bar'
-      }
-   },
+   flash_notifications: {},
 });
 
 const VueBootstrapFlashNotification = {
@@ -59,10 +53,7 @@ const VueBootstrapFlashNotification = {
             },// /flash_notification_remove()
          }
       });
-
-      Vue.prototype.$foo = function(){
-         console.log( 'bar!', this );
-      };
+      
    }// /install()
 
 };// /VueBootstrapFlashNotification{}
