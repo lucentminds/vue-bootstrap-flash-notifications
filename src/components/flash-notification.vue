@@ -20,9 +20,15 @@ export default {
 
    data(){
       return {
-         timeout: 0
-      }
+         timeout: 0,
+      };
    },// /date()
+
+   computed:{
+      flash_notifications(){
+         return this.flash_notification_state.flash_notifications;
+      },// /flash_notifications()
+   },// /computed{}
 
    methods: {
       close_notification(){
@@ -34,6 +40,7 @@ export default {
    },// methods{}
 
    mounted(){
+      console.info( 'mounted....');
       
       // clearTimeout( this.timeout );
 
@@ -45,7 +52,7 @@ export default {
 
    beforeDestroy(){
       clearTimeout( this.timeout );
-   }
+   },// /beforeDestroy()
 };
 </script>
 
