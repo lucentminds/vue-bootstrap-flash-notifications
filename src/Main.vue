@@ -1,6 +1,5 @@
 <template>
    <div class="flash-notifications">
-      flash_notifications: {{flash_notifications}}
       <flash-notification class="flash-notification" v-for="note in flash_notifications" :key="note.id" :notification="note"></flash-notification>
    </div>
 </template>

@@ -39,17 +39,6 @@ export default {
 
    },// methods{}
 
-   mounted(){
-      console.info( 'mounted....');
-      
-      // clearTimeout( this.timeout );
-
-      // this.timeout = setTimeout(() => {
-      //    this.flash_notification_remove( this.notification.id );
-      //    note.classList.add( '--closed' );
-      // }, 2000 );
-   },// /mounted()
-
    beforeDestroy(){
       clearTimeout( this.timeout );
    },// /beforeDestroy()
