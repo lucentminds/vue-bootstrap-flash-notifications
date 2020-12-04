@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import Main from './Main';
+import Main from './Main.vue';
 
 
 class PluginStore {
